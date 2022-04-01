@@ -15,4 +15,6 @@ jobs:
       - run: pip install mkdocs-material 
       - run: |
             pwd
+            cd docs
+            pwd
             mkdocs gh-deploy --force
